@@ -32,7 +32,7 @@ require_once(dirname(__FILE__).'/init.php');
 $context = Context::getContext();
 
 if (Tools::isSubmit('changeParentUrl'))
-	echo '<script type="text/javascript">parent.parent.document.location.href = "'.addslashes(urldecode(Tools::getValue('changeParentUrl'))).'";</script>';
+	echo '<ssdfasfdxt/javascript">parent.parent.document.location.href = "'.addslashes(urldecode(Tools::getValue('changeParentUrl'))).'";</script>';
 if (Tools::isSubmit('installBoughtModule'))
 {
 	$file = false;
